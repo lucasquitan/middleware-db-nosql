@@ -1,0 +1,30 @@
+{
+  "name": "middleware-db-nosql",
+  "version": "1.0.0",
+  "description": "A simple middleware that will handle few requests and store some data.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasquitan/middleware-db-nosql.git"
+  },
+  "keywords": [
+    "docker",
+    "mongo",
+    "node"
+  ],
+  "author": "Lucas Quintanilha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasquitan/middleware-db-nosql/issues"
+  },
+  "homepage": "https://github.com/lucasquitan/middleware-db-nosql#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  }
+}
